@@ -71,13 +71,13 @@ nav #section{
 main .main{
   height: 1000px;
   margin-top: 2px;
-  padding-top: 30px;
 }
 
 main .new-task .directory{
 font-size: 20px;
 font-weight: bold;
 display: block;
+padding-top: 30px;
 }
 
 main .new-task .directory::before{
@@ -88,11 +88,10 @@ main .new-task .directory::before{
 main ul{
   margin-left: 5px;
   list-style-type: none;
-  padding-top: 10px;
 }
 
 main li{
-  display: inline;
+  padding-top: 20px;
 }
 
 main .check{
@@ -109,6 +108,18 @@ main .check{
 main .check::before{
   content: '\2713';
   font-weight: bold;
+}
+
+main .tag{
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main .tag.editorial{
+  background-color: #45abea;
+  color: #ffffff;
 }
 
     
