@@ -12,6 +12,7 @@ body{
 
 .conteiner{
   width: 80%;
+  max-width: 1520px;
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
   border-radius: 5px;
@@ -69,7 +70,7 @@ nav #section{
 
 /* MAIN */
 main .main{
-  height: 1000px;
+  padding-bottom: 60px;
   margin-top: 2px;
 }
 
@@ -105,8 +106,24 @@ main .check{
   vertical-align: middle;
 }
 
+main .cross{
+  color: #ef6e66;
+  border:1px solid #ef6e66;    
+  border-radius:50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align:center;
+  vertical-align: middle;
+}
+
 main .check::before{
   content: '\2713';
+  font-weight: bold;
+}
+
+main .cross::before{
+  content: '\00D7';
   font-weight: bold;
 }
 
@@ -115,12 +132,32 @@ main .tag{
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  color: #ffffff;
 }
 
 main .tag.editorial{
   background-color: #45abea;
-  color: #ffffff;
 }
 
-    
+main .tag.goals{
+  background-color: #9c72e4;
+}
+
+main .tag.recruting{
+  background-color: #64c0a9;
+}
+
+main .tag.mobile{
+  background-color: #f29e33;
+}
+
+main .tag.web{
+  background-color: #d863a1;
+}
+
+main .tag.sales{
+  background-color: #b0c926;
+}
+
+
   
