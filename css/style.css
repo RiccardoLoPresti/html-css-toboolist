@@ -58,6 +58,10 @@ nav #task{
   color: white;
 }
 
+nav #task:hover{
+  background-color: rgb(48, 118, 164, 0.8)
+}
+
 nav #section{
   vertical-align: middle;
   padding: 6px;
@@ -68,20 +72,24 @@ nav #section{
   color: #d5d9dd;
 }
 
+nav #section:hover{
+  background-color: rgb(242, 242, 242, 0.9)
+}
+
 /* MAIN */
 main .main{
   padding-bottom: 60px;
   margin-top: 2px;
 }
 
-main .new-task .directory{
+main .task .directory{
 font-size: 20px;
 font-weight: bold;
 display: block;
 padding-top: 30px;
 }
 
-main .new-task .directory::before{
+main .task .directory::before{
   content: '\25BC';
   font-size: 15px;
 }
