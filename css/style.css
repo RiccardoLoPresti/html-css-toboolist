@@ -13,10 +13,9 @@ body{
 .conteiner{
   width: 80%;
   background-color: rgb(255, 255, 255);
-  /* height: 60px; */
   margin: 0 auto;
   border-radius: 5px;
-  /* margin-top: 40px;; */
+  padding-left: 50px;
 }
 
 /* HEADER */
@@ -45,7 +44,6 @@ nav .nav{
 }
 
 nav .menu-nav{
-  padding-left: 50px;
   padding-top: 20px;
 }
 
@@ -73,5 +71,45 @@ nav #section{
 main .main{
   height: 1000px;
   margin-top: 2px;
-
+  padding-top: 30px;
 }
+
+main .new-task .directory{
+font-size: 20px;
+font-weight: bold;
+display: block;
+}
+
+main .new-task .directory::before{
+  content: '\25BC';
+  font-size: 15px;
+}
+
+main ul{
+  margin-left: 5px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+main li{
+  display: inline;
+}
+
+main .check{
+  color: #89d0bf;
+  border:1px solid #89d0bf;    
+  border-radius:50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align:center;
+  vertical-align: middle;
+}
+
+main .check::before{
+  content: '\2713';
+  font-weight: bold;
+}
+
+    
+  
