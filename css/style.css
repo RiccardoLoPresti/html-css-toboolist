@@ -10,10 +10,16 @@ body{
   background-color: #f6f8f9;
 }
 
-
+.conteiner{
+  width: 80%;
+  background-color: rgb(168, 242, 255);
+  /* height: 60px; */
+  margin: 0 auto;
+  border-radius: 5px;
+  /* margin-top: 40px;; */
+}
 
 /* HEADER */
-
 header .logo{
   width: 100%;
   background-color:#ffffff;
@@ -32,3 +38,16 @@ header .logo-text{
   vertical-align: middle;
 }
 
+/* NAV */
+nav .nav{
+  height: 60px;
+  margin-top: 50px;
+}
+
+
+/* MAIN */
+main .main{
+  height: 1000px;
+  margin-top: 2px;
+
+}
