@@ -10,10 +10,10 @@ body{
   background-color: #f6f8f9;
 }
 
-.conteiner{
+.container{
   width: 80%;
-  max-width: 1520px;
-  background-color: rgb(255, 255, 255);
+  max-width: 1500px;
+  background-color: #ffffff;
   margin: 0 auto;
   border-radius: 5px;
   padding-left: 50px;
@@ -25,7 +25,6 @@ header .logo{
   background-color:#ffffff;
   height: 80px;
 }
-
 
 header .logo img{
   vertical-align: middle;
@@ -55,11 +54,11 @@ nav #task{
   background-color: #47adf1;
   border-radius: 5px;
   border: 1px solid #47adf1 ;
-  color: white;
+  color: #ffffff;
 }
 
 nav #task:hover{
-  background-color: rgb(48, 118, 164, 0.8)
+  background-color: rgba(48, 118, 164, 0.8)
 }
 
 nav #section{
@@ -73,7 +72,7 @@ nav #section{
 }
 
 nav #section:hover{
-  background-color: rgb(242, 242, 242, 0.9)
+  background-color: rgba(242, 242, 242, 0.8)
 }
 
 /* MAIN */
